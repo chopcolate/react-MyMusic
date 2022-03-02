@@ -1,0 +1,36 @@
+.player-playlist {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    bottom: 60px;
+    left: -76px;
+    z-index: 3;
+    background-color: black;
+    overflow: scroll;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+}
+
+.player-playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.player-playlist li {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.player-playlist li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f035e9;
+    cursor: pointer;
+}
+
+.player-playlist img {
+    width: 70px;
+    border-radius: 8px;
+    margin-right: 20px;
+}

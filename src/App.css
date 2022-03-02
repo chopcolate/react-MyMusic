@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

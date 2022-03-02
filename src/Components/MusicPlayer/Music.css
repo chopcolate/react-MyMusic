@@ -1,0 +1,122 @@
+
+.music-player {
+    background-color: #181818;
+    width: calc(100% - 40px);
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+    padding: 0 20px 0 20px;
+}
+ 
+.song-info {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-info .thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.song-info .description {
+    color: white;
+}
+
+.song-info .fav {
+    color: white;
+}
+
+.control {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.control .button {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.music-player .icon {
+    color: #cccccc;
+    font-size: 20px;
+}
+
+.music-player .icon:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.control .icon-play {
+    color: #1ed760;
+    font-size: 28px;
+}
+
+.control .progress {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.control .progress span {
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.control .progress-bar {
+    width: 80%;
+    height: 6px;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 20px;
+}
+
+.progress-bar::-webkit-slider-thumb, .volume-bar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #1ed760;
+    cursor: pointer;
+    
+}
+
+.music-player .more {
+    width: 15%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-player .volume {
+    display: flex;
+    align-items: center;
+}
+
+.music-player .volume-bar {
+    height: 6px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.music-player .icon.active {
+    color: #1ed760;
+}

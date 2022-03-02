@@ -1,0 +1,54 @@
+.Authentication {
+    
+    width: 84vw;
+    height: calc(100vh);
+    margin-left: 16%;
+    position: relative;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Authentication .type {
+}
+
+.Authentication .type .type-Btn:first-child::after {
+    content: "";
+    border: 1px solid white;
+    background-color: white;
+    margin: 0 8px;
+}
+
+.Authentication .type .type-Btn {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.Authentication .type .type-Btn.active {
+    color: #1ed760;
+    font-weight: 750;
+}
+
+.Authentication-input {
+    width: 30%;
+}
+
+.Authentication-input input {
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+}
+
+.Authentication-input .notify {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: green;
+    width: 80%;
+}

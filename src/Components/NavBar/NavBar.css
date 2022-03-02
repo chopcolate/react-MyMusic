@@ -1,0 +1,51 @@
+.nav {
+    display: flex;
+    position: fixed;
+    margin-left: 16%;
+    z-index: 1;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+    align-items: center;
+    width: 82vw;
+    padding: 0 20px;
+}
+
+
+.nav-btn .btn {
+    color: #fff;
+    font-size: 40px;
+}
+
+.nav-login {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1.76px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-login .user-option-btn {
+    color: white;
+}
+
+.nav-login .signup {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-login .login {
+    color: black;
+    text-decoration: none;
+    padding: 12px 32px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.nav-login .account {
+    color: white;
+}

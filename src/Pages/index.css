@@ -1,0 +1,10 @@
+.Content {
+    width: calc(84vw - 40px);
+    min-height: calc(100vh - 200px);
+    margin-left: 16%;
+    padding: 80px 20px 120px;
+    position: relative;
+    background-image: linear-gradient(180deg, #487f9e, #6e2f6b);
+    color: white;
+}
+

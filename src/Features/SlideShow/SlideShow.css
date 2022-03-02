@@ -1,0 +1,24 @@
+@import "~slick-carousel/slick/slick.css"; 
+
+.SlideShow {
+    display: flex;
+    margin: -20px;
+    overflow: hidden;
+}
+
+
+.Slide {
+    margin: 20px 35px 20px 20px;
+    transition: 1.2s;
+    outline: none;
+}
+
+
+.Slide:hover {
+    transform: scale(1.1);
+}
+
+.Slide img {
+   width: 380px;
+   border-radius: 20px;
+}

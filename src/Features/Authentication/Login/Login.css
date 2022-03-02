@@ -1,0 +1,16 @@
+.login-btn {
+    padding: 16px 40px;
+    margin: 20px;
+    background-color: #1ed760;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 28px;
+    outline: none;
+}
+
+
+.login-btn:active {
+    color: black;
+    transform: scale(1.02);
+}

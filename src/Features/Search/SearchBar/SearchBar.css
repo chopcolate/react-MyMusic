@@ -1,0 +1,19 @@
+.nav-search {
+    background-color: white;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 8px 10px;
+}
+
+.nav-search input {
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+.nav-search .icon {
+    font-size: 24px;
+}

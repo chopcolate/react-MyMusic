@@ -1,0 +1,44 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.result .result-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.result .result-item:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.result .song-img {
+    width: 200px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.result .song-info {
+    height: 125px;
+    display: flex;
+    margin: 0 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.result .song-name {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.result .song-author {
+    color: white;
+    font-size: 16px;
+}
